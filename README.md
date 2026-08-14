@@ -1,1 +1,1 @@
-# CTF_Error_Log
+# CTF_Bandit_Writeups
