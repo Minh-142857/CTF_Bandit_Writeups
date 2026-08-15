@@ -1,5 +1,5 @@
 # NHIỆM VỤ
-Truy cập vào game bằng username bandit1, sau đó lấy password trong file -.
+Truy cập vào game bằng username bandit1, sau đó lấy password trong file "-".
 
 # LỜI GIẢI
 Truy cập game: Dùng lệnh ssh với các thông tin sau:
@@ -19,7 +19,7 @@ Sau khi nhập lệnh, terminal sẽ trả về như sau:
 
 ![Màn hình lệnh ls -al](./ls_al.PNG)
 
-Lúc này ta chỉ cần in ra file - là xong. Tuy nhiên, nếu ta nhập:
+Lúc này ta chỉ cần in ra file "-" là xong. Tuy nhiên, nếu ta nhập:
 ```bash
 cat -
 ```
@@ -27,7 +27,7 @@ Hệ thống sẽ hiểu là đọc dữ liệu nhập từ bàn phím, thay vì
 
 ![Cú pháp sai và cách thoát](./cat_wrong.PNG)
 
-Để hệ thống in ra file -, ta cần nhập 1 trong 2 lệnh sau:
+Để hệ thống in ra file "-", ta cần nhập 1 trong 2 lệnh sau:
 ```bash
 cat ./- #Lúc này hệ thống sẽ hiểu đây là đường dẫn tệp tin
 cat -- - #Báo hiệu kết thúc options
