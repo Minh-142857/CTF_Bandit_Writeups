@@ -1,5 +1,5 @@
 # OBJECTIVE
-Log in to the game using username bandit1, then get the password in the "-" file.
+Log in to the game using the username bandit1, then get the password in the "-" file.
 
 # SOLUTION
 Log in to the game: Use ssh command with given information:
