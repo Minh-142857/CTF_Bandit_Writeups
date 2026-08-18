@@ -14,4 +14,4 @@ ssh -p port username@host
 
 Fill the infomation above into the command, and the system will output the following:
 
-!["Level completed" screen](./objective.PNG)
+!["Level completed" screen](./images/objective.PNG)

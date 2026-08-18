@@ -14,4 +14,4 @@ ssh -p port username@host
 
 Nhập các thông tin trên vào lệnh, hệ thống sẽ trả về như sau:
 
-![Màn hình hoàn thành level](./objective.PNG)
+![Màn hình hoàn thành level](./images/objective.PNG)
