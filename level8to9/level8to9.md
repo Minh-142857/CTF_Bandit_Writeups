@@ -22,7 +22,7 @@ Tuy nhiên, nó có 1 vấn đề. Nếu ta thực thi lệnh này, terminal s�
 
 Lý do: Lệnh `uniq` CHỈ KIỂM TRA TRÊN NHỮNG DÒNG LIỀN KỀ NHAU. Nếu sử dụng lệnh `cat data.txt` như trên, ta sẽ thấy các chuỗi ký tự phân bổ một cách ngẫu nhiên. 
 
-Để xử lý vấn đề trên, ta phải sắp xếp các chuỗi ký tự theo thứ tự (khi đó các dòng trùng nhau sẽ ở cạnh nhau, và lệnh `uniq` sẽ loại bỏ các dòng đó). Ta phải sử dụng thêm lệnh `sort` (giống như trong `C++`) trước khi dùng `uniq` như sau:
+Để xử lý vấn đề trên, ta phải sắp xếp các chuỗi ký tự theo thứ tự (khi đó các dòng trùng nhau sẽ ở cạnh nhau, và lệnh `uniq` sẽ loại bỏ các dòng đó). Ta phải sử dụng thêm lệnh `sort` (giống như `std::sort` trong `C++`) trước khi dùng `uniq` như sau:
 ```bash
 sort data.txt | uniq --unique
 ```
