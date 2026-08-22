@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string s; getline(cin, s);
+    for(char c : s){
+        if(c == ' ' || (48 <= c && c <= 57)) cout << c;
+        else if(65 <= c && c <= 90){
+            int c_lo = c - 13, c_hi = c + 13;
+            if(65 <= c_lo && c_lo <= 90) cout << (char)c_lo;
+            else cout << (char)c_hi;
+        }
+        else if(97 <= c && c <= 122){
+            int c_lo = c - 13, c_hi = c + 13;
+            if(97 <= c_lo && c_lo <= 122) cout << (char)c_lo;
+            else cout << (char)c_hi;
+        }
+    }
+    return 0;
+}

@@ -1,0 +1,11 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    string pass = "hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv";
+    for(int i = 0; i < 10000; i++){
+        cout << pass << ' ' << setw(4) << setfill('0') << i << '\n';
+    }
+    return 0;
+}
